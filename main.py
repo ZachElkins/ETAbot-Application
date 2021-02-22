@@ -1,6 +1,6 @@
 """
     ETAbot Application Question
-    
+
     Problem:
         Imagine you need to write a program for quickly finding location of things.
     A user would enter information as "dance shoes - basement", "tent - garage", 
@@ -77,7 +77,7 @@ def main_loop() :
     if   option == "1" : input_item();    return False
     elif option == "2" : retrieve_item(); return False
     elif option == "3" : return True
-    else : print("Invalid command")
+    else : print("Invalid command"); return False
 
 
 if __name__ == "__main__" :
